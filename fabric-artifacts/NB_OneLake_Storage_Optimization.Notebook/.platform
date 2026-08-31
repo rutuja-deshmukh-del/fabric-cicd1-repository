@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Notebook",
+    "displayName": "NB_OneLake_Storage_Optimization"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "1e9f6aa8-1677-8aac-4749-e9d532e7cfe4"
+  }
+}
