@@ -29,7 +29,8 @@ from pyspark.sql import SparkSession
 sales_data = [
     (1, "Laptop", 50000),
     (2, "Phone", 30000),
-    (3, "Tablet", 20000)
+    (3, "Tablet", 20000),
+    (4, "Monitor", 15000)
 ]
 
 columns = ["id", "product", "sales"]
