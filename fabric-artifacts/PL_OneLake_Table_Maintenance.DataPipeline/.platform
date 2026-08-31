@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "DataPipeline",
+    "displayName": "PL_OneLake_Table_Maintenance"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "c2eb5e0a-f037-b4ac-44a4-832c532b2460"
+  }
+}

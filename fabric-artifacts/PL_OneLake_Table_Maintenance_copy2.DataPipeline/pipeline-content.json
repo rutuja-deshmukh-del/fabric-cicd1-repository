@@ -1,0 +1,28 @@
+{
+  "properties": {
+    "activities": [
+      {
+        "type": "TridentNotebook",
+        "typeProperties": {
+          "notebookId": "1e9f6aa8-1677-8aac-4749-e9d532e7cfe4",
+          "workspaceId": "00000000-0000-0000-0000-000000000000",
+          "parameters": {
+            "tablename": {
+              "value": "students",
+              "type": "string"
+            }
+          }
+        },
+        "policy": {
+          "timeout": "0.12:00:00",
+          "retry": 0,
+          "retryIntervalInSeconds": 30,
+          "secureInput": false,
+          "secureOutput": false
+        },
+        "name": "Run_Table_Maintenance",
+        "dependsOn": []
+      }
+    ]
+  }
+}

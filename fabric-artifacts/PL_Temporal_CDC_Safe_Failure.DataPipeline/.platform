@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "DataPipeline",
+    "displayName": "PL_Temporal_CDC_Safe_Failure"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "c4b88014-889e-803c-4be4-7b60d79c2817"
+  }
+}

@@ -30,7 +30,8 @@ sales_data = [
     (1, "Laptop", 50000),
     (2, "Phone", 30000),
     (3, "Tablet", 20000),
-    (4, "Monitor", 15000)
+    (4, "Monitor", 15000),
+    (5, "Keyboard", 5000)
 ]
 
 columns = ["id", "product", "sales"]

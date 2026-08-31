@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "DataPipeline",
+    "displayName": "PL_Temporal_CDC_Validation"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "1e44c9ee-e7aa-987a-4817-4188d94c4f32"
+  }
+}

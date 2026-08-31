@@ -26,39 +26,6 @@
 
 # CELL ********************
 
-table_name = "students"
-schema_name = "dbo"
-
-full_table_name = f"{schema_name}.{table_name}"
-
-print(full_table_name)
-
-# METADATA ********************
-
-# META {
-# META   "language": "python",
-# META   "language_group": "synapse_pyspark"
-# META }
-
-# CELL ********************
-
-# Check Delta table details using the correct full table name
-details = spark.sql(f"DESCRIBE DETAIL {full_table_name}")
-
-display(details)
-
-# METADATA ********************
-
-# META {
-# META   "language": "python",
-# META   "language_group": "synapse_pyspark"
-# META }
-
-# MARKDOWN ********************
-
-
-# CELL ********************
-
 # Welcome to your new notebook
 # Type here in the cell editor to add code!
 spark.version
@@ -93,14 +60,9 @@ for key, value in sorted(spark.sparkContext.getConf().getAll()):
 
 # CELL ********************
 
-print("Current catalog:")
-spark.sql("SELECT current_catalog()").show(truncate=False)
+table_name = "dbo"
 
-print("Current schema:")
-spark.sql("SELECT current_schema()").show(truncate=False)
-
-print("All tables:")
-spark.sql("SHOW TABLES").show(truncate=False)
+spark.sql(f"DESCRIBE DETAIL {table_name}").show(truncate=False)
 
 # METADATA ********************
 
@@ -985,16 +947,6 @@ print("OPTIMIZE completed")
 spark.sql(f"""
 DESCRIBE HISTORY {table_name}
 """).show(5, truncate=False)
-
-
-# METADATA ********************
-
-# META {
-# META   "language": "python",
-# META   "language_group": "synapse_pyspark"
-# META }
-
-# CELL ********************
 
 
 # METADATA ********************
