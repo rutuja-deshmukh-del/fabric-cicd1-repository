@@ -45,7 +45,7 @@ sales_df.write \
     .mode("overwrite") \
     .saveAsTable("retail_sales")
 
-print("Enterprise change - Version 2")
+
 
 
 sales_df.write.mode("overwrite").saveAsTable("retail_sales")
